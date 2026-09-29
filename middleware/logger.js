@@ -1,6 +1,11 @@
-const logger = (req, res, next) => {
-    console.log(`${req.method} ${req.url} - ${new Date().toISOString()}`);
-    next();
-};
+const logger =(req,res,next)=>{
+    const time =new Date().toLocaleString();
 
-export default logger;
+    console.log(`[${time}] ${req.method} ${req.originalUrl}`);
+
+    next();
+
+}
+
+
+module.exports = logger;

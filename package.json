@@ -2,12 +2,24 @@
   "name": "student-management-api",
   "version": "1.0.0",
   "description": "Student Management REST API",
-  "type": "module",
+
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^5.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prachi87577-byte/assignment2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prachi87577-byte/assignment2/issues"
+  },
+  "homepage": "https://github.com/prachi87577-byte/assignment2#readme"
 }

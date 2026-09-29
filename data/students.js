@@ -15,4 +15,4 @@ let students = [
     }
 ];
 
-export default students;
+module.exports = students;
